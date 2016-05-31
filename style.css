@@ -4,10 +4,11 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-size: 2vw;
 }
 main {
   padding-left:10vw;
-  height:100vh;
+  height:90vh;
   width:100vw;
 }
 
@@ -49,7 +50,7 @@ main {
   align-items:center;
 }
 
-#topdiv {
+.topdiv {
   height:35vh;
   display:flex;
   justify-content:center;
@@ -63,4 +64,17 @@ nav {
 
 h1 {
   padding-top:5vh;
+  color:#F4743B;
+  text-shadow:2px 2px black;
+  font-size:5rem;
+}
+
+.flexDisplay {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#bottomDiv {
+  padding-top:10vh;
 }
