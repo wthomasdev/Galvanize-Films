@@ -1,0 +1,66 @@
+body {
+  background: url(popcorn.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+main {
+  padding-left:10vw;
+  height:100vh;
+  width:100vw;
+}
+
+#title {
+  text-align:center;
+}
+
+.textox {
+   width: 50vw;
+   height: 10vh;;
+   border: solid 2px #00E3E3;
+   padding: 2px;
+   border-radius: 5px;
+   font-size: 29px;
+   box-shadow: 0px 1px 2px 0px #9C9C9C;
+   background-color: #FFFFFF;
+   outline: none;
+   color: #474747;
+   text-align: center;
+  }
+.textox:hover  {
+   border: 2px solid #FF00D5;
+  }
+.textox:focus  {
+   border: solid 2px #00D43C;
+   box-shadow: inset 0px 1px 2px 0px #9C9C9C;
+  }
+.textox:active  {
+   border: solid 2px #0043EB;
+  }
+
+.row {
+  height:20vh;
+}
+
+.input {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#topdiv {
+  height:35vh;
+  display:flex;
+  justify-content:center;
+}
+
+nav {
+  display:flex;
+  justify-content:center;
+  text-align:center;
+}
+
+h1 {
+  padding-top:5vh;
+}
